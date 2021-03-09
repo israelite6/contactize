@@ -16,7 +16,6 @@ const App: () => React$Node = () => {
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
-        <Text>Test</Text>
         <IndexStartupContainer />
       </SafeAreaView>
     </>
