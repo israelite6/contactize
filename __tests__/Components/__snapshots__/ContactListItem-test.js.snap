@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactListItem component renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "borderBottomColor": "black",
+      "borderBottomWidth": 1,
+      "paddingHorizontal": 15,
+      "paddingTop": 10,
+    }
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "borderRadius": 30,
+          "height": 60,
+          "width": 60,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "flexGrow": 1,
+          "paddingLeft": 10,
+        }
+      }
+    >
+      Name
+    </Text>
+    <Text
+      style={
+        Object {
+          "transform": Array [
+            Object {
+              "rotate": "90deg",
+            },
+          ],
+        }
+      }
+    >
+      ^
+    </Text>
+  </View>
+</View>
+`;
